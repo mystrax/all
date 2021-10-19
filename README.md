@@ -799,6 +799,46 @@
 	//    }
 	//}
 	//}
+	#include <iostream>
+	using namespace std;
+	int main()
+	{
+		int myGrade;
+		cout << "Type the percentage of your grade? Type 1 if 80-100, 2 if 70-79, 3 if 60-69, 4 if 50-59, 5  if 40-49, if less than 40 \n";
+		cin >> myGrade;
+		switch (myGrade) {
+
+		case 1:
+			(myGrade >= 79);
+			cout << "Your grade is an A" << endl;
+			break;
+		case 2:
+			(myGrade >= 69);
+			cout << "Your grade is B" << endl;
+			break;
+		case 3:
+			(myGrade >= 59);
+			cout << "Your grade is C" << endl;
+			break;
+		case 4:
+			(myGrade >= 49);
+			cout << "Your grade is D" << endl;
+			break;
+		case 5:
+			(myGrade >= 39);
+			cout << "Your grade is an E" << endl;
+			break;
+		case 6:
+			(myGrade <= 40);
+			cout << "Your grade is F" << endl;
+			break;
+		default:
+			cout << "Invalid Input" << endl;
+			break;
+		}
+
+
+}
 	//}
 	//}
 	//}
